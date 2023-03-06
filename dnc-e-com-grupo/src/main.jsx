@@ -1,10 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import './index.scss'
+import { createBrowserRouter, RouterProvider, } from "react-router-dom";
+import Login from "./views/Login/Login"
+import Home from "./views/Home/Home"
+import AddToCart from "./views/AddToCart/AddToCart"
+import Cart from "./views/Cart/Cart"
+import Checkout from "./views/Checkout/Checkout"
 
 const router = createBrowserRouter([
-
+  
   {
     path: "/",
     element: <Login />,
@@ -19,16 +24,16 @@ const router = createBrowserRouter([
   },
   {
     path: "/cart",
-    element: <Cart />,
+    element: <Cart/>,
   },
   {
     path: "/checkout",
-    element: <Checkout />,
+    element: <Checkout/>,
   },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )
