@@ -1,8 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Checkout = () => {
   return (
-    <div>Checkout</div>
+    <div> 
+    <h1>checkout</h1>
+    <button type="submit">
+      <Link to={"/home"}>home</Link>
+    </button>
+  </div>
   )
 }
 
