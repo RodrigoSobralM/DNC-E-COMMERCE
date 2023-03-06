@@ -1,13 +1,13 @@
+import './index.scss'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './index.scss'
 
 const AddToCart = () => {
   return (
-    <div> 
+    <div>
       <h1>add to cart</h1>
       <button type="submit">
-        <Link to={"/cart"}>cart</Link>
+            <Link to={"/cart"}>cart</Link>
       </button>
     </div>
   )
