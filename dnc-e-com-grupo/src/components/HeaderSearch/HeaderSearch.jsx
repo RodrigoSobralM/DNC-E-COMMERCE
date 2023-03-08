@@ -3,7 +3,9 @@ import React from 'react'
 
 const HeaderSearch = () => {
   return (
-    <div>HeaderSearch</div>
+    <header>
+      <h2>header search aqui</h2>
+    </header>
   )
 }
 
