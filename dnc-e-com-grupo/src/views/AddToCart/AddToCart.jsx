@@ -1,22 +1,21 @@
-import './index.scss'
 import React from 'react'
-import { Link } from 'react-router-dom'
-import HeaderSearch from "../../components/HeaderSearch/HeaderSearch"
-import Footer from "../../components//Footer/Footer"
+import { useParams } from "react-router-dom"
+import Footer from '../../components/Footer/Footer'
+import HeaderSearch from '../../components/HeaderSearch/HeaderSearch'
+import ProductDetail from "../../components/ProductDetail/ProductDetail"
+import './index.scss'
 
-const AddToCart = () => {
+const AddToCart = ({data}) => {
+  const { productId } = useParams();
+  const selectedProduct = data.find((product) => product.id == productId);
+
   return (
-    <div>
+    <section className="product">
       <HeaderSearch />
-      <div>
-        <h2>Add to cart html aqui</h2>
-        <button type="submit">
-              <Link to={"/cart"} >cart</Link>
-        </button>
-      </div>
+      <ProductDetail data={selectedProduct} />
       <Footer />
-    </div>
-  )
+    </section>
+  ) 
 }
 
 export default AddToCart
