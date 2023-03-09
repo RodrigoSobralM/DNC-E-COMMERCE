@@ -1,1 +1,69 @@
 @use "../../sass/variables" as *;
+
+header {
+    background-color: $header-background;
+}
+
+.header-search {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+    &__cart {
+        cursor: pointer;
+        height: 40px;
+        fill: #fff;
+    }
+
+    &__cart:hover {
+        fill: $contrast-color;
+    }
+
+    img {
+        height: 90px;
+        padding: 25px 50px;
+    }
+    &__input {
+        position: relative;
+
+        svg {
+            color: gray;
+                font-size: 18px;
+                height: 20px;
+                left: 4px;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+        }
+        input {
+            border-radius: 10px;
+            border: $border-input-color;
+            height: 36px;
+            padding-left: 45px;
+            width: 980px;
+        }
+    }
+
+}
+
+.header-nav {
+    
+    ul {
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+
+    }
+    li {
+        color: $white;
+        cursor: pointer;
+        font-size: 22px;
+        font-weight: 600;
+        list-style: none;
+        padding: 25px 0;
+    }
+    li:hover {
+        color: $contrast-color;
+    }
+
+}
