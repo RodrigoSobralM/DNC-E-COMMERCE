@@ -1,0 +1,40 @@
+
+header{
+    font-family: 'Raleway';
+
+    padding: 30px;
+}
+
+.header-search-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-input{
+    width: 1500px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #B7B7B7;
+    border-radius: 10px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.4);
+
+    background-color: white;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+
+    list-style: none;
+}
