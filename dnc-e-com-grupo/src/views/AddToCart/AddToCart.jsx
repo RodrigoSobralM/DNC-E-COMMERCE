@@ -1,21 +1,15 @@
-import './index.scss'
 import React from 'react'
-import { Link } from 'react-router-dom'
-import HeaderSearch from "../../components/HeaderSearch/HeaderSearch"
-import Footer from "../../components//Footer/Footer"
+import Footer from '../../components/Footer/Footer'
+import HeaderSearch from '../../components/HeaderSearch/HeaderSearch'
+import ProductDetail from '../../components/ProductDetail/ProductDetail'
 
 const AddToCart = () => {
   return (
-    <div>
+    <section className="product">
       <HeaderSearch />
-      <div>
-        <h2>Add to cart html aqui</h2>
-        <button type="submit">
-              <Link to={"/cart"} >cart</Link>
-        </button>
-      </div>
+      <ProductDetail />
       <Footer />
-    </div>
+    </section>
   )
 }
 
