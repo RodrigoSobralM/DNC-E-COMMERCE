@@ -2,24 +2,20 @@ import './index.scss'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import HeaderSearch from '../../components/HeaderSearch/HeaderSearch'
-import ProductsCard from "../../components/ProductsCard/ProductsCard"
-import Footer from "../../components/Footer/Footer"
-import homeBanner from "../../assets/banner.png"
+import Footer from '../../components/Footer/Footer'
 
-const Home = ({ data }) => {
+const Home = () => {
   return (
-    <section className="home">
+    <div>
       <HeaderSearch />
-      <div className="home-banner">
-        <img src={homeBanner} alt="banner" />
+      <div>
+        <h2>Home html aqui</h2>
+        <button type="submit">
+              <Link to={"/addToCart"} >add</Link>
+        </button>
+        <Footer />
       </div>
-      <div className="home-products">
-      {
-        data.map((product) => (<ProductsCard key={product.id} data={product} />))
-      }
-      </div>
-      <Footer />
-    </section>
+    </div>
   )
 }
 
