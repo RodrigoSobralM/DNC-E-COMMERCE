@@ -1,8 +1,9 @@
 
 header{
-    font-family: 'Raleway';
-
     padding: 30px;
+    background: #2D2D2D;
+
+    box-shadow: 2px 4px 4px
 }
 
 .header-search-content{
@@ -12,7 +13,7 @@ header{
 }
 
 .header-input{
-    width: 1500px;
+    width: 970px;
     height: 48px;
     background: #FFFFFF;
     border: 1px solid #B7B7B7;
@@ -30,11 +31,13 @@ header{
 ul{
     display: flex;
     justify-content: space-around;
+    margin-top: 60px;
 
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 30px;
     line-height: 35px;
+    color: white;
 
     list-style: none;
 }
