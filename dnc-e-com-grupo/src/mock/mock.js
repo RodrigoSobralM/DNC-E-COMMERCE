@@ -1,7 +1,7 @@
 export const PRODUCTS_MOCK = [
     {
         id: 1,
-        imgPath: "../../../public/",
+        imgPath: "/image 21.png",
         imgPathDetail: "Lorem impsum dolor sit amet consectur",
         title: "Microsoft Xbox Series X | Preto",
         price: "R$ 2.000,00",
@@ -9,7 +9,7 @@ export const PRODUCTS_MOCK = [
     },
     {
         id: 2,
-        imgPath: "../../../public/",
+        imgPath: "/image 22.png",
         imgPathDetail: " Lorem impsum dolor sit amet consectur",
         title: "Microsoft Xbox Series S | Branco",
         price: "R$ ??",
@@ -17,7 +17,7 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 3,
-        imgPath: "../../public/",
+        imgPath: "/image 23.png",
         imgPathDetail: "Lorem impsum dolor sit amet consectur",
         title: "Nintendo Switch com Jogo",
         price: "R$ ??",
@@ -25,7 +25,7 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 4,
-        imgPath: "../../../public/",
+        imgPath: "/image 24.png",
         imgPathDetail: "Lorem impsum dolor sit amet consectur",
         title: "Jogo God of War Playstation",
         price: "R$ ??",
@@ -33,7 +33,7 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 5,
-        imgPath: "../../../public/",
+        imgPath: "/image 25.png",
         imgPathDetail: "Lorem impsum dolor sit amet consectur",
         title: "Jogo Uncharted: The Nathan Drake Collection",
         price: "R$ ??",
@@ -41,7 +41,7 @@ export const PRODUCTS_MOCK = [
         },
         {
         id: 6,
-        imgPath: "../../../public/",
+        imgPath: "/image 26.png",
         imgPathDetail: "Lorem impsum dolor sit amet consectur",
         title: "Jogo Gran Turismo",
         price: "R$ ??",
