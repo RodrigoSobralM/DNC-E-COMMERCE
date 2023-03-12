@@ -2,12 +2,14 @@
 
 header {
     background-color: $header-background;
+    padding-bottom: 35px;
 }
 
 .header-search {
     align-items: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+
 
     &__cart {
         cursor: pointer;
@@ -20,14 +22,13 @@ header {
     }
 
     img {
-        height: 90px;
         padding: 25px 50px;
     }
     &__input {
         position: relative;
 
         svg {
-            color: gray;
+                color: gray;
                 font-size: 18px;
                 height: 20px;
                 left: 4px;
@@ -41,6 +42,14 @@ header {
             height: 36px;
             padding-left: 45px;
             width: 980px;
+
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+        input:focus {
+            outline: none;
         }
     }
 
@@ -55,9 +64,9 @@ header {
 
     }
     li {
-        color: $white;
         cursor: pointer;
-        font-size: 22px;
+        color: $white;
+        font-size: 30px;
         font-weight: 600;
         list-style: none;
         padding: 25px 0;
