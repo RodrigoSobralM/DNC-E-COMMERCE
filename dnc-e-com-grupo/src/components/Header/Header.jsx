@@ -1,10 +1,11 @@
 import './index.scss'
-
 import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+      <img src='logoDNC.png' alt='logo DNC'></img>
+    </header>
   )
 }
 
