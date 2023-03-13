@@ -3,6 +3,9 @@
 .home {
     background-color: $header-background;
     &__main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 92px;
         padding: 60px 140px;
 
     }
