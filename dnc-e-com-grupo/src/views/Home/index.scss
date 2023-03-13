@@ -4,10 +4,10 @@
     background-color: $header-background;
     &__main {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         gap: 92px;
         padding: 60px 140px;
-
     }
 
     &__banner img {
@@ -37,14 +37,21 @@
     &__card img {
         width: 330px;
         height: 255px;
-        border-radius: 8px 8px 0 0; 
+        border-radius: 8px 8px 0 0;
+        transform: scale(0.9);
+        transition: .4s ease-in-out; 
     }
+    
+        &__card img:hover {
+            transition: .4s ease-in-out;
+            transform: scale(1.0);
+        }
 
     &__card h2 {
         margin-top: 6px;
         font-family: 'Raleway';
         font-style: normal;
-        font-weight: 400;
+        font-weight: 550;
         font-size: 14px;
         line-height: 20px;
         text-align: center;
@@ -57,7 +64,15 @@
         background: #0C70F2;
         border: 1px solid rgba(0, 0, 0, 0.3);
         margin-top: 11px;
+        transition: .5s all ease;
     }
+
+        &__card button:hover {
+            background: #0c4da1;
+            transition: .5s all ease;
+            transform: scale(1.05);
+            cursor: pointer;
+        }
 
     &__card button a {
         text-decoration: none;
