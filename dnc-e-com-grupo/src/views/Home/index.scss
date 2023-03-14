@@ -2,11 +2,13 @@
 
 .home {
     background-color: $header-background;
+    
     &__main {
         display: flex;
         justify-content: space-between;
+        flex-basis: 20%;
         flex-wrap: wrap;
-        gap: 92px;
+        gap: 100px;
         padding: 60px 140px;
     }
 

@@ -90,10 +90,6 @@ header {
         -webkit-transition: all .3s ease-in-out 0s;
         transition: all .3s ease-in-out 0s;
     }
-    li:hover:before {
-        visibility: visible;
-        -webkit-transform: scaleX(1);
-        transform: scaleX(1);
-    }
+
 
 }
