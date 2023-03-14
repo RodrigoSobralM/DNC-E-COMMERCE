@@ -7,12 +7,17 @@ footer {
 
     img {
         height: 90px;
-        padding: 10px 40px 40px 40px;
+        padding: 1px 10px 25px 45px;
+        margin-top: 10px;
     }
     p {
         color: $white;
         font-size: 18px;
         font-weight: 300px;
         margin-right: 200px;
+        margin-top: 15px;
+    }
+    span {
+        font-weight: 750;
     }
 }
