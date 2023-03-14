@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <img src={dncLogo} alt="logo" />
       <p>Preços e condições de pagamento exclusivos para compras via internet e
-         podem variar nas lojas físicas. Para mais informações, 
+         podem variar nas lojas físicas. <span>Para mais informações</span>, 
          entre em contato: (011) 1111-2222
       </p>
     </footer>
