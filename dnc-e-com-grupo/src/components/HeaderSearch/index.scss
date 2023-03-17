@@ -15,8 +15,12 @@ header {
         cursor: pointer;
         height: 40px;
         fill: #fff;
+        // transition: .3s;
+    }
+
+    &__cart:hover {
+        fill: $contrast-color;
         transition: .3s;
-        // border: 1px solid white;
     }
 
     img {
@@ -85,5 +89,9 @@ header {
         transition: all .3s ease-in-out 0s;
     }
 
-
+         li:hover:before {
+            visibility: visible;
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+         }
 }
