@@ -9,7 +9,6 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin-right: 100px;
 
 
     &__cart {
@@ -20,13 +19,8 @@ header {
         // border: 1px solid white;
     }
 
-    &__cart:hover {
-        fill: $contrast-color;
-        transition: .3s;
-    }
-
     img {
-        padding: 25px 50px;
+        margin: 20px;
     }
     &__input {
         position: relative;
