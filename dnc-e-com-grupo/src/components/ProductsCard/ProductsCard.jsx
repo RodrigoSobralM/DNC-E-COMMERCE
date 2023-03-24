@@ -1,4 +1,4 @@
-import './index.scss'
+
 import { Link } from 'react-router-dom'
 
 function ProductsCard({data}) {0
