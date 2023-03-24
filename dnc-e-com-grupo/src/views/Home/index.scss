@@ -4,33 +4,24 @@
     background-color: $header-background;
     
     &__main {
+        padding: 62px 140px;
+    }
+
+    &__cards {
         display: flex;
-        justify-content: space-between;
-        flex-basis: 20%;
         flex-wrap: wrap;
-        gap: 100px;
-        padding: 60px 140px;
+        justify-content: space-around;
+        gap: 27px;
     }
 
     &__banner img {
         width: 100%;
     }
 
-    &__row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    &__col {
-        flex: 1;
-        padding: 10px;
-    }
-
-    
     &__card {
-        width: 331px;
+        width: 330px;
         height: 337px;
-        background: #FFFFFF;
+        background-color: #FFFFFF;
         border: 1px solid #B7B7B7;
         border-radius: 8px;
         text-align: center;
@@ -44,19 +35,23 @@
         transition: .4s ease-in-out; 
     }
     
-        &__card img:hover {
-            transition: .4s ease-in-out;
-            transform: scale(1.0);
-        }
+    &__card img:hover {
+        transition: .4s ease-in-out;
+        transform: scale(1.0);
+    }
 
-    &__card h2 {
-        margin-top: 6px;
+    &__card p {
         font-family: 'Raleway';
         font-style: normal;
-        font-weight: 550;
+        font-weight: 400;
         font-size: 14px;
         line-height: 20px;
+        /* or 143% */
+
         text-align: center;
+
+        /* Gray/750 */
+
         color: #252423;
     }
 
