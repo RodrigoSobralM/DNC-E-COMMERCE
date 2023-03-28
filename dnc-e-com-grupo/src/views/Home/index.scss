@@ -4,11 +4,10 @@
     background-color: $header-background;
 
     &__cards {
+        align-items: center;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 27px;        
-        padding: 62px 140px;
+        justify-content: center;
     }
 
     &__banner img {
@@ -16,11 +15,11 @@
     }
 
     &__card {
-        width: 330px;
-        height: 337px;
         background-color: #FFFFFF;
         border: 1px solid #B7B7B7;
         border-radius: 8px;
+        margin: 50px 100px;
+        max-width: 30vw;
         text-align: center;
     }
 

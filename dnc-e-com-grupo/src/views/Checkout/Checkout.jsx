@@ -1,13 +1,13 @@
 import './index.scss'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import HeaderSearch from '../../components/HeaderSearch/HeaderSearch'
+import HeaderSearchModal from '../../components/HeaderSearchModal/HeaderSearchModal'
 import Footer from '../../components/Footer/Footer'
 
 const Checkout = () => {
   return (
     <div>
-      <HeaderSearch />
+      <HeaderSearchModal />
       <div>
         <h2>Checkout html aqui</h2>
         <button type="submit">
