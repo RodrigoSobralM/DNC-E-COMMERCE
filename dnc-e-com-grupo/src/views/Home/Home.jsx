@@ -12,13 +12,11 @@ const Home = ({data}) => {
         <div className='home__banner'>
           <img src="./src/assets/banner.png" alt="" />
         </div>
-      <div className='home__main'>
-            <div className='home__cards'>
+        <div className='home__cards'>
                 {data.map((product) => (
                     <ProductsCard key={product.id} data={product} />
                   ))}
-            </div>
-      </div>
+        </div>
       <Footer />
     </section>
   )

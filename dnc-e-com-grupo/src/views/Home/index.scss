@@ -2,16 +2,13 @@
 
 .home {
     background-color: $header-background;
-    
-    &__main {
-        padding: 62px 140px;
-    }
 
     &__cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        gap: 27px;
+        gap: 27px;        
+        padding: 62px 140px;
     }
 
     &__banner img {
