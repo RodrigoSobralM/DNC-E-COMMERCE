@@ -3,8 +3,27 @@
 .header-modal {
     border-bottom: 1px solid #fff;
     opacity: 0.4;
+
+    &__nav{
+        ul {
+            align-items: center;
+            display: flex;
+            justify-content: space-around;
+    
+        }
+        li {
+            cursor: pointer;
+            color: $white;
+            font-size: 30px;
+            font-weight: 600;
+            list-style: none;
+            padding: 25px 0;
+            position: relative;      
+    }
+}
 }
 
 input:disabled {
     background-color: #fff;
 }
+

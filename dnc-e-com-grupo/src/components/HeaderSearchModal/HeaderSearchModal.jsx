@@ -15,7 +15,7 @@ const HeaderSearchModal = () => {
         </div>
         <img src={cartIcon} alt="cart icon" className="header-search__cart"/>    
       </div>
-      <div className="header-nav">
+      <div className="header-modal__nav">
         <ul>
           <li>Novidades</li>
           <li>Jogos</li>

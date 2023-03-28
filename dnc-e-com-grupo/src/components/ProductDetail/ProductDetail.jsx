@@ -18,33 +18,7 @@ const ProductDetail = ({ data }) => {
       <div className="product-detail__right-side">
         <h3>{data.title}</h3>
         <h4>{data.price}</h4>
-        <p>
-          Cor:{" "}
-          {data.colors.length === 1
-            ? data.colors.map((color, index) => (
-                <span key={index}>{color}</span>
-              ))
-            : data.colors.map((color, index) =>
-                index + 1 === data.colors.length ? (
-                  <span key={index}>{color}</span>
-                ) : (
-                  <span key={index}>{color}, </span>
-                )
-              )}
-        </p>
-        <div className="product-detail__cube-colors">
-          {data.colors.map((color) => (
-            <div
-              style={{
-                width: "64px",
-                height: "60px",
-                border: "1px solid #000",
-                borderRadius: "10px",
-                backgroundColor: color,
-              }}
-            ></div>
-          ))}
-        </div>
+      
         <button
           className="btn-cart"
           onClick={() => (window.location.href = `/cart/${data.id}`)}
