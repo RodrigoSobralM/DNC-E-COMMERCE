@@ -1,0 +1,10 @@
+@use "../../sass/variables" as *;
+
+.header-modal {
+    border-bottom: 1px solid #fff;
+    opacity: 0.4;
+}
+
+input:disabled {
+    background-color: #fff;
+}
