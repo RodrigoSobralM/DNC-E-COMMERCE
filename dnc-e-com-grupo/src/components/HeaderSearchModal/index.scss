@@ -12,15 +12,19 @@
     
         }
         li {
-            cursor: pointer;
             color: $white;
+            cursor: default;
             font-size: 30px;
             font-weight: 600;
             list-style: none;
             padding: 25px 0;
             position: relative;      
+        }
     }
-}
+    &__cart{
+        cursor: default;
+        height: 40px;
+    }
 }
 
 input:disabled {
