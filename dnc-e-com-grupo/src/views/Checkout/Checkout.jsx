@@ -11,7 +11,7 @@ const Checkout = () => {
       <section className="product-detail-modal">
         <div className="product-detail-modal__container">
           <form>
-            <h2>Finalizar compra</h2>
+            <h2 className="checkoutH2">Finalizar compra</h2>
 
             <label htmlFor="name">Digite seu nome:</label>
             <input type="text" placeholder='Nome Completo' id="name" name="name" />
