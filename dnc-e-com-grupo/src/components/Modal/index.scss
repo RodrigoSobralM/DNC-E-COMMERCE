@@ -51,12 +51,17 @@
         height: 40px;
         
         border-radius: 10px;
-        border: 1px solid #7A7A7A;
+        border: $border-input-color;
+        padding-left: 10px;
     }
 
-        .input-msg {
-            height: 150px;
-        }
+    input:focus {        
+        border: transparent;
+    }
+
+    .input-msg {
+        height: 150px;
+    }
         
 button {
     background: #0C70F2;
