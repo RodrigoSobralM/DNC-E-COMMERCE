@@ -10,8 +10,9 @@ const Checkout = () => {
       <HeaderSearchModal />
       <section className="product-detail-modal">
         <div className="product-detail-modal__container">
-          <h2>Finalizar compra</h2>
           <form>
+            <h2>Finalizar compra</h2>
+
             <label htmlFor="name">Digite seu nome:</label>
             <input type="text" placeholder='Nome Completo' id="name" name="name" />
 
