@@ -9,7 +9,7 @@ function ProductsCard({data}) {0
             <img src={data.imgPath} alt="" />
             <div className='home__card-description'>
                 <p>{data.title}</p>
-                <button type="submit">
+                <button type="submit" className="home__card-button">
                     <Link to={`/addToCart/${data.id}`} >Ver Mais</Link>
                 </button>
             </div>

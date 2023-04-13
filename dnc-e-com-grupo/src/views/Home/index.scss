@@ -51,11 +51,12 @@
         color: #252423;
     }
 
-    &__card button {
+    &__card-button {
         width: 128px;
         height: 24px;
         background: #0C70F2;
         border: transparent;
+        border-radius: 0px;
         margin-top: 11px;
         transition: .5s all ease;
     }
