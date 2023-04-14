@@ -37,7 +37,7 @@ const modal = ({open, onClose}) => {
             <input type="text" className='input-msg' placeholder="Digite sua mensagem" />
 
             <button>
-              <span>Enviar mensagem</span>
+              <span onClick={onClose}>Enviar mensagem</span>
             </button>
         </div>
     </section>
