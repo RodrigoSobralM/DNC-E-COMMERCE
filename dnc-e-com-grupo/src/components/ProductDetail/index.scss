@@ -87,6 +87,14 @@
                 background-color: #174af0;
                 cursor: pointer;
             }
+            
+            .btn-back{
+                background-color: #646464;
+                margin: 0px;
+            }
+            .btn-back:hover{
+                background-color: #515050;
+            }
     }
 
     &__portionPrice {

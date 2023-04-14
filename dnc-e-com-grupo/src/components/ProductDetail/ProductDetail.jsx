@@ -45,6 +45,9 @@ const ProductDetail = ({ data }) => {
           </svg>
           Adicionar ao carrinho
         </button>
+        <button className="btn-back" onClick={() => (window.location.href = "/home")}>
+          Voltar
+        </button>
       </div>
     </div>
   );
