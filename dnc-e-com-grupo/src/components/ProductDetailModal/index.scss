@@ -19,10 +19,45 @@
             flex-direction: column;
         }
     }
+    &__checkPix {
+        display: flex;
+        align-items: center;
+        gap: 19px;
+        
+        input {
+            width: 20px;
+            height: 20px;
+        }
+
+        img {
+            box-sizing: border-box;
+            width: 50px;
+            height: 50px;
+        }
+        
+    }
+    &__checkCard {
+        display: flex;
+        align-items: center;
+        gap: 19px;
+
+        input {
+            box-sizing: border-box;
+            width: 20px;
+            height: 20px;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+        }
+        
+    }
     &__buttons {
         align-items: center;
         display: flex;
         flex-direction: column;
+        margin-top: 80px;
 
         .btn1 {
             background: #0c70f2;
@@ -32,7 +67,7 @@
             border-radius: 10px;
            
             height: 60px;
-            margin-top: 28px;
+            margin: 0;
             width: 400px;
             
             font-size: 24px;
@@ -75,15 +110,24 @@
                     cursor: pointer;
                 }
     }
+
+    &__tagFrete {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+
+    }
+    
     &__frete {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
+        justify-content: left;
         align-items: center;
         margin-top: 50px;
     }
     &__frete input{
-        border-radius: 10px 10px 0 0;
+        border-radius: 10px 0 0 10px;
         width: 200px;
         border-color: #0c70f2;
     }
@@ -91,8 +135,12 @@
     &__frete button{
         margin: 0;
         border-color: #0c70f2;
-        border-radius: 0 0 10px 10px;
+        border-radius: 0 10px 10px 0;
         width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 }
 

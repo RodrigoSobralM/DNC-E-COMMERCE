@@ -17,10 +17,6 @@ const ProductDetailModal = ({ data }) => {
           <div className="product-detail__card">
             <img src={data.imgPath} alt={data.title} />
           </div>
-          <div className="product-detail-modal__frete">
-            <input type="text" value={cep} onChange={handleCepChange} placeholder="Insira seu CEP" />
-            <button className="btnFrete">Calcular Frete</button>
-          </div>
         </div>
         <div className="product-detail-modal__right-side">
           <h1>Meu Carrinho</h1>
@@ -28,6 +24,11 @@ const ProductDetailModal = ({ data }) => {
           <h4>{data.price}</h4>
 
 
+          <h2 className="product-detail-modal__tagFrete">Calcular o frete:</h2>
+          <div className="product-detail-modal__frete">
+            <input type="text" value={cep} onChange={handleCepChange} placeholder="Insira seu CEP" />
+            <button className="btnFrete"><img src="/iconeCar.svg"></img>Calcular</button>
+          </div>
           <div className="product-detail-modal__buttons">
             <button className="btn1" onClick={() => (window.location.href = "/home")}>
                 Continuar Comprando

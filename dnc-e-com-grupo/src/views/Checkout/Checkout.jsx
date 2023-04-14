@@ -21,9 +21,17 @@ const Checkout = () => {
 
             <label htmlFor="address">Endereço:</label>
             <input type="text" placeholder='Seu endereço' id="address" name="address" />
-
             <label htmlFor="payment">Forma de pagamento:</label>
-            <input type="text" placeholder='********' id="payment" name="payment" />
+            <div className='product-detail-modal__checkPix'>
+              <input type="radio" id='pix' name="payment" value='Pix' />
+              <img src="/iconePix.svg" alt="" />
+              <label htmlFor="pix">Pix</label>
+            </div>
+            <div className='product-detail-modal__checkCard'>
+              <input type="radio" id='card' name="payment" value='cardCredit' />
+              <img src="/iconeCard.svg" alt="" />
+              <label htmlFor="card">Cartão de crédito</label>
+            </div>
             <div className="button">
               <button type="submit">
                 <Link to={"/home"}>Enviar</Link>

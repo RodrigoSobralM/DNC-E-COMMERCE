@@ -6,6 +6,9 @@ export const PRODUCTS_MOCK = [
       "O Xbox One X preto é um console de videogame da Microsoft com cor predominante preta e acabamento fosco. É poderoso e capaz de oferecer jogos em 4K e HDR. Vem com um controlador sem fio preto e uma variedade de portas para conectar dispositivos externos.",
     title: "Microsoft Xbox Series X | Preto",
     price: "R$ 2.000,00",
+    portion: "6",
+    pricePortion: "333,34",
+    pricePix: "1.900,00"
   },
   {
     id: 2,
@@ -14,6 +17,9 @@ export const PRODUCTS_MOCK = [
       "O Xbox Series S branco é um console de videogame da Microsoft em cor branca, menor e mais acessível que o Xbox Series X. É projetado para jogos em 1080p e 1440p, oferece armazenamento interno de 512GB em estado sólido, suporte a Ray Tracing e vem com um controlador sem fio branco.",
     title: "Microsoft Xbox Series S | Branco",
     price: "R$ ??",
+    portion: "?",
+    pricePortion: "???",
+    pricePix: "???"
   },
   {
     id: 3,
@@ -22,6 +28,9 @@ export const PRODUCTS_MOCK = [
       "O Nintendo Switch é um console de videogame híbrido que pode ser usado como um console de mesa ou um dispositivo portátil. Ele vem com um jogo incluído e oferece uma ampla seleção de jogos exclusivos da Nintendo.",
     title: "Nintendo Switch com Jogo",
     price: "R$ ??",
+    portion: "?",
+    pricePortion: "???",
+    pricePix: "???"
   },
   {
     id: 4,
@@ -30,6 +39,9 @@ export const PRODUCTS_MOCK = [
       "God of War é um jogo de ação e aventura para PlayStation 4 com Kratos como protagonista, acompanhado de seu filho Atreus. O objetivo é espalhar as cinzas da mãe de Atreus em um local sagrado. O jogo apresenta gráficos impressionantes, jogabilidade desafiadora e combates intensos.",
     title: "Jogo God of War Playstation",
     price: "R$ ??",
+    portion: "?",
+    pricePortion: "???",
+    pricePix: "???"
   },
   {
     id: 5,
@@ -38,6 +50,9 @@ export const PRODUCTS_MOCK = [
       "Uncharted: The Nathan Drake Collection é uma coleção remasterizada dos três primeiros jogos da série Uncharted para PlayStation 4. O jogo segue as aventuras do caçador de tesouros Nathan Drake, com gráficos aprimorados e jogabilidade renovada. É um jogo icônico da plataforma PlayStation.",
     title: "Jogo Uncharted: The Nathan Drake Collection",
     price: "R$ ??",
+    portion: "?",
+    pricePortion: "???",
+    pricePix: "???"
   },
   {
     id: 6,
@@ -46,5 +61,8 @@ export const PRODUCTS_MOCK = [
       "Gran Turismo é uma série de jogos de corrida realista desenvolvida pela Polyphony Digital para os consoles da Sony. Os jogos apresentam uma grande variedade de carros e pistas, com o objetivo de proporcionar uma experiência de corrida autêntica e popular entre fãs de carros.",
     title: "Jogo Gran Turismo",
     price: "R$ ??",
+    portion: "?",
+    pricePortion: "???",
+    pricePix: "???"
   },
 ];
