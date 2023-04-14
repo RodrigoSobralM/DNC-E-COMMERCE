@@ -17,7 +17,7 @@ const ProductDetail = ({ data }) => {
       </div>
       <div className="product-detail__right-side">
         <h3>{data.title}</h3>
-        <h4>{data.price}</h4>
+        <h4>por <b>{data.price}</b></h4>
         <div className="product-detail__portionPrice">
           <img src="/iconeCard.svg" alt="" />
           <h2>até <b>{data.portion}x</b> de <b>R$ {data.pricePortion}</b> sem juros</h2>
