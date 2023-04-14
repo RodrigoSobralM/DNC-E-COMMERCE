@@ -88,4 +88,40 @@
                 cursor: pointer;
             }
     }
+
+    &__portionPrice {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        margin-top: 50px;
+        
+        h2 {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 20px;
+            color: #2D2D2D;
+        }
+    }
+
+    &__pricePix {
+        display: flex;
+        align-items: center;
+        gap: 22px;
+        margin-top: 26px;
+
+        h2{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 20px;
+            color: #2D2D2D;
+        }
+
+        h2 b {
+            font-family: 'Raleway';
+        }
+    }
 }

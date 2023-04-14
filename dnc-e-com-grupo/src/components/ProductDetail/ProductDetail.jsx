@@ -18,6 +18,14 @@ const ProductDetail = ({ data }) => {
       <div className="product-detail__right-side">
         <h3>{data.title}</h3>
         <h4>{data.price}</h4>
+        <div className="product-detail__portionPrice">
+          <img src="/iconeCard.svg" alt="" />
+          <h2>até <b>{data.portion}x</b> de <b>R$ {data.pricePortion}</b> sem juros</h2>
+        </div>
+        <div className="product-detail__pricePix">
+          <img src="/iconePix.svg" alt="" />
+          <h2><b>R$ {data.pricePix}</b> via pix</h2>
+        </div>
       
         <button
           className="btn-cart"
