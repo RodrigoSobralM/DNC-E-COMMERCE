@@ -75,6 +75,25 @@
                     cursor: pointer;
                 }
     }
+    &__frete {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    &__frete input{
+        border-radius: 10px 10px 0 0;
+        width: 200px;
+        border-color: #0c70f2;
+    }
+
+    &__frete button{
+        margin: 0;
+        border-color: #0c70f2;
+        border-radius: 0 0 10px 10px;
+        width: 200px;
+    }
 }
 
 .product-detail__card {
