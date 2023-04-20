@@ -36,9 +36,18 @@ Da forma que foi executado, o projeto facilita a exposição(?) de produtos na i
 
 - Node Package Manager (NPM)
 - React Router
+
+## Abordagem
+
+ O projeto foi realizado utilizando o React Router, ferramenta que facilita o roteamento de páginas e suas conexões. A estilização foi feita com o Sass CSS que cria um código mais simples e de fácil manutenção.
+ Os padrões de design seguem a identidade visual proposta pelos professores, usando as cores da escola DNC que são mantidas em todo o projeto.
+
 ## Status
 
 Projeto finalizado
+
+## Exemplos de código
+
 ## Autores
 
 - [@diocelio](https://github.com/)
