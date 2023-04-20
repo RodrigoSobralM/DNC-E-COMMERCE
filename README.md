@@ -1,9 +1,8 @@
 # Título do Projeto
 
-O projeto tem como objetivo simular uma página de e-commerce, a partir do que foi aprendido em aula e através de pesquisas construímos um site que disponibiliza os produtos com descrição e preço, simula o carrinho de compras e a página de pagamento, junto com um modal para atendimento ao cliente.
-
-
 ## Sobre
+
+O projeto tem como objetivo simular uma página de e-commerce, a partir do que foi aprendido em aula e através de pesquisas construímos um site que disponibiliza os produtos com descrição e preço, simula o carrinho de compras e a página de pagamento, junto com um modal para atendimento ao cliente.
 
 Da forma que foi executado, o projeto facilita a exposição(?) de produtos na internet para serem vendidos, o código foi feito de forma dinâmica, o que facilita a manutenção do site na hora de remover ou adicionar novos produtos.
 
