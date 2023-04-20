@@ -51,8 +51,24 @@ $text-color: #000;
             border-radius: 10px;
             margin-top: 12px;
         }
-        }  
     }
+        button {
+            margin-top: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 524px;
+            height: 48px;
+            background: #0C70F2;
+            border-radius: 6px;
+            padding: 20px 36px;
+            font-family: $font-family;
+            color: #FFFFFF;
+            font-size: 18px;
+            border: none;
+            
+          }
+        }
     
     .error {
         font-family: $font-family;
@@ -60,4 +76,4 @@ $text-color: #000;
         color: red;
         margin-top: 20px;
     }
-    }
+}
