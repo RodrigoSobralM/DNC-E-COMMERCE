@@ -37,14 +37,14 @@ const Login = () => {
       <div className="form">
       <h2>Acesse com seu login ou cadastre-se!</h2>
       <h3>você pode entrar com o seu CPF</h3>
-      <form onSubmit={handleSubmit}>
-        <label>
+      <form onSubmit={handleSubmit} className='x'>
+        <label className='y'>
           Digite seu CPF:
-          <input type="text" placeholder="CPF" name="cpf" value={cpf} onChange={handleCpfChange} />
+          <input className='z' type="text" placeholder="CPF" name="cpf" value={cpf} onChange={handleCpfChange} />
         </label>
-        <label>
+        <label className='y'>
           Senha:
-          <input type="password" name="pass" placeholder="*********" value={pass} onChange={handlePassChange} />
+          <input className='z' type="password" name="pass" placeholder="*********" value={pass} onChange={handlePassChange} />
         </label>
         <button type="submit">Entrar</button>
       </form>
