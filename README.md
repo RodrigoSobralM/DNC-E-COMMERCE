@@ -57,4 +57,4 @@ Projeto finalizado
 - [@felipe](https://github.com/dopezinho)
 - [@rodrigmeira](https://github.com/rodrigmeira)
 - [@rodrigosobral](https://github.com/RodrigoSobralM)
-- [@yanka](https://github.com/)
+- [@yankavieira](https://github.com/yankacst)
