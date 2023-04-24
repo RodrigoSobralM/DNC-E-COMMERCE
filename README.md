@@ -50,8 +50,6 @@ Da forma que foi executado, o projeto apresenta um catálogo de produtos na inte
 
 Projeto finalizado
 
-## Exemplos de código
-
 ## Autores
 
 - [@diocelio](https://github.com/)
