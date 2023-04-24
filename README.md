@@ -34,6 +34,9 @@ Da forma que foi executado, o projeto apresenta um catálogo de produtos na inte
 
 - Validação de login 
 - Modal de atendimento
+- Display dos produtos de forma dinâmica
+- Carrinho de compras com preços variáveis
+- Tela de checkout com opção de forma de pagamento
 
 
 ## Setup
