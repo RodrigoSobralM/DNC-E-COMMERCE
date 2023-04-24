@@ -13,7 +13,11 @@ const Login = () => {
     if (cpf.trim() === '' || pass.trim() === '') {
       setErrorMessage('Por favor, preencha todos os campos.');
     } else {
-      return true;
+      if (cpf === '000.000.000-00' && pass === 'demo123') {
+        window.location.href = '/home';
+      } else {
+        setErroMessage ('CPF ou senha incorretos');
+      }
     }
   };
 
