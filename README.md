@@ -33,7 +33,6 @@ Da forma que foi executado, o projeto apresenta um catálogo de produtos na inte
 ## Funcionalidades
 
 - Validação de login 
-- (Para fazer o login, utilize a conta demonstração CPF: 000.000.000-00 | Senha: demo123)
 - Modal de atendimento
 
 
