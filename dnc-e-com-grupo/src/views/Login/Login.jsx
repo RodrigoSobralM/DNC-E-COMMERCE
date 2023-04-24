@@ -32,21 +32,23 @@ const Login = () => {
   };
 
   return (
-    <div className="login">
+    <div>
       <Header />
-      <div className="form">
+      <div className="login">
       <h2>Acesse com seu login ou cadastre-se!</h2>
       <h3>você pode entrar com o seu CPF</h3>
-      <form onSubmit={handleSubmit} className='x'>
-        <label className='y'>
+      <form onSubmit={handleSubmit} className='form'>
+        <label className='label'>
           Digite seu CPF:
-          <input className='z' type="text" placeholder="CPF" name="cpf" value={cpf} onChange={handleCpfChange} />
+          <input className='input' type="text" placeholder="CPF" name="cpf" value={cpf} onChange={handleCpfChange} />
         </label>
-        <label className='y'>
+        <label className='label'>
           Senha:
-          <input className='z' type="password" name="pass" placeholder="*********" value={pass} onChange={handlePassChange} />
+          <input className='input' type="password" name="pass" placeholder="*********" value={pass} onChange={handlePassChange} />
         </label>
+        <div className="login-button">
         <button type="submit">Entrar</button>
+        </div>
       </form>
       {errorMessage && <div className="error">{errorMessage}</div>}
       </div>
