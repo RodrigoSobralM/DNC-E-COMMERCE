@@ -55,7 +55,7 @@ Projeto finalizado
 
 ## Autores
 
-- [@diocelio](https://github.com/)
+- [@diocelio](https://github.com/dcLima7)
 - [@emanuele](https://github.com/emanuelecanolla)
 - [@felipe](https://github.com/dopezinho)
 - [@rodrigmeira](https://github.com/rodrigmeira)
