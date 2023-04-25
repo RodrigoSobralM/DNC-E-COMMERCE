@@ -33,8 +33,10 @@ Da forma que foi executado, o projeto apresenta um catálogo de produtos na inte
 ## Funcionalidades
 
 - Validação de login 
-- (Para fazer o login, utilize a conta demonstração CPF: 000.000.000-00 | Senha: demo123)
 - Modal de atendimento
+- Display dos produtos de forma dinâmica
+- Carrinho de compras com preços variáveis
+- Tela de checkout com opção de forma de pagamento
 
 
 ## Setup
@@ -51,13 +53,11 @@ Da forma que foi executado, o projeto apresenta um catálogo de produtos na inte
 
 Projeto finalizado
 
-## Exemplos de código
-
 ## Autores
 
-- [@diocelio](https://github.com/)
-- [@emanuele](https://github.com/)
+- [@diocelio](https://github.com/dcLima7)
+- [@emanuele](https://github.com/emanuelecanolla)
 - [@felipe](https://github.com/dopezinho)
 - [@rodrigmeira](https://github.com/rodrigmeira)
-- [@rodrigo](https://github.com/)
-- [@yanka](https://github.com/)
+- [@rodrigosobral](https://github.com/RodrigoSobralM)
+- [@yankavieira](https://github.com/yankacst)
