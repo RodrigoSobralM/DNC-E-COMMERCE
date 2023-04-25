@@ -56,7 +56,7 @@ Projeto finalizado
 ## Autores
 
 - [@diocelio](https://github.com/)
-- [@emanuele](https://github.com/)
+- [@emanuele](https://github.com/emanuelecanolla)
 - [@felipe](https://github.com/dopezinho)
 - [@rodrigmeira](https://github.com/rodrigmeira)
 - [@rodrigosobral](https://github.com/RodrigoSobralM)
