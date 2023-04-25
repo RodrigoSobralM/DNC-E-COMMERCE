@@ -29,7 +29,6 @@ function HeaderSearch() {
         </ul>
       </div>
       <Modal open={openModal} onClose={()=> setOpenModal(false)} />
-      <h2>header search aqui</h2>
     </header>
   )
 }

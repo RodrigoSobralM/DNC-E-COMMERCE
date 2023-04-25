@@ -1,4 +1,5 @@
 import './index.scss'
+import dncLogo from "../../assets/dnc-logo-footer.png"
 
 import React from 'react'
 
@@ -10,7 +11,6 @@ const Footer = () => {
          podem variar nas lojas físicas. <span>Para mais informações</span>, 
          entre em contato: (011) 1111-2222
       </p>
-      <h2>footer aqui</h2>
     </footer>
   )
 }
