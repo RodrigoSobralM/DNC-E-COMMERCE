@@ -1,19 +1,15 @@
 import './index.scss'
 import React from 'react'
-<<<<<<< HEAD
 import dncIcon from "../../assets/dnc-logo.svg"
 import cartIcon from "../../assets/cart.svg"
 import Modal from '../Modal/Modal'
 import {useState} from 'react'
 
-=======
->>>>>>> main
 
 function HeaderSearch() {
   const [openModal, setOpenModal] = useState(false)
   return (
     <header>
-<<<<<<< HEAD
       <div className="header-search">
         <img src={dncIcon} alt="logo" className="header-search__logo"/>
         <div className="header-search__input">
@@ -33,9 +29,7 @@ function HeaderSearch() {
         </ul>
       </div>
       <Modal open={openModal} onClose={()=> setOpenModal(false)} />
-=======
       <h2>header search aqui</h2>
->>>>>>> main
     </header>
   )
 }

@@ -15,11 +15,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/home",
-<<<<<<< HEAD
-    element: <Home data={PRODUCTS_MOCK} />,
-=======
-    element: <Home />,
->>>>>>> main
+    element: <Home data={PRODUCTS_MOCK} />
   },
   {
     path: "/addToCart",
