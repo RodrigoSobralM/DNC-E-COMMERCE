@@ -13,11 +13,8 @@ Da forma que foi executado, o projeto apresenta um catálogo de produtos na inte
  - [Protótipo](https://www.figma.com/proto/ahJSYLTVKQLunQBYmjH5vg/dnc-ecommerce-project?node-id=39-47&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=53%3A14)
 ## Screenshots
 
-![Login](https://www.linkpicture.com/q/login_30.png)
-![Home](https://www.linkpicture.com/q/home_53.png)
-![Add To Cart](https://www.linkpicture.com/q/addToCart.png)
-![Cart](https://www.linkpicture.com/q/cart_9.png)
-![Checkout](https://www.linkpicture.com/q/checkout_1.png)
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/114089132/234420845-fd649ab2-e199-458c-a8f1-91c1cc351fd2.gif)
+
 
 
 ## Tecnologias usadas
